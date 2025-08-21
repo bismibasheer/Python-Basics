@@ -3,13 +3,13 @@ while count<=5:
     print(count)
     count=count+1  """  
 
-number=int(input("Enter the number : "))
+"""number=int(input("Enter the number : "))
 num=1
 fact=1
 while num<=number:
     fact=fact*num
     num=num+1
-print(f"Factorial of {number} is {fact}")
+print(f"Factorial of {number} is {fact}")"""
 
 
 
@@ -22,3 +22,22 @@ while num<=number-2:
     print(third,end=" ")
     first,second=second,third
     num=num+1"""
+
+"""num=1
+while num<=10:
+    
+    if num==4:
+        num=num+1
+        continue
+    print(num,end="")
+    num=num+1"""
+
+
+num=1
+while num<=10:
+    num=num+1
+    if num==4:
+        break
+    print(num,end="")
+  
+    
